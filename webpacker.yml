@@ -1,0 +1,17 @@
+  extensions:
+    - .jsx
+    - .tsx
+    - .mjs
+    - .js
+    - .ts
+    - .sass
+    - .scss
+    - .css
+    - .module.sass
+    - .module.scss
+    - .module.css
+    - .png
+    - .svg
+    - .gif
+    - .jpeg
+    - .jpg
