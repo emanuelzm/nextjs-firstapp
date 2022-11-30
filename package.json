@@ -33,7 +33,17 @@
     "webpack-dev-server": "^4.11.1",
     "yarn": "^1.22.19"
   },
-  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/react",
+      "@babel/env"
+    ],
+    "plugins": [
+      "@babel/proposal-class-properties",
+      "@babel/plugin-transform-runtime"
+    ]
+  },
+  "main": "/pages/index.tsx",
   "repository": "https://github.com/emanuelzm/nextjs-firstapp.git",
   "author": "Emanuel Zabaleta <emanuelzm0220@gmail.com>",
   "license": "MIT"
