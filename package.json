@@ -1,0 +1,26 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "next": "13.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "yarn": "^1.22.19"
+  },
+  "main": "/pages/index.jsx",
+  "repository": "https://github.com/emanuelzm/nextjs-firstapp.git",
+  "author": "Emanuel Zabaleta <emanuelzm0220@gmail.com>",
+  "license": "MIT"
+}
