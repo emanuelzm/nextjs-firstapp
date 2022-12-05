@@ -1,13 +1,12 @@
-import React from "react"
-import ReactDom from "react-dom"
-
+import CustomHead from "../components/Custom-Head";
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    
     <div className={styles.container}>
+      <CustomHead title={"Hello World!"}></CustomHead>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -15,7 +14,7 @@ export default function Home() {
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
